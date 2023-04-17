@@ -16,3 +16,19 @@ body{
     left: 100px;
     top: 20px;
 }
+
+#info{
+    color: gray;
+}
+
+#author{
+    color: blue;
+}
+
+#info, #author{
+    font-size: 20px;
+}
+
+#data{
+    font-size: 15px;
+}

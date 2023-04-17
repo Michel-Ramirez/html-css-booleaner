@@ -32,3 +32,11 @@ body{
 #data{
     font-size: 15px;
 }
+
+figure{
+    margin: 0;
+}
+
+.caption{
+    font-size: 12px;
+}

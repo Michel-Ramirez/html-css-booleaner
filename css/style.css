@@ -2,7 +2,7 @@ body{
     margin: 0;
 }
 
-.container-main{
+.align-center{
     width: 1080px;
     margin: 0 auto;
 }
@@ -11,16 +11,15 @@ body{
     height: 100px;
     background-image: url(../img/pattern.png);
     background-color: rgb(53, 91, 168);
-    background-size: center;
+    
 }
+
 
 #logo{
     width: 200px;
-    height: 150px;
-    position: absolute;
-    left: 165px;
-    top: 20px;
+    margin-top: 20px;
 }
+
 
 #info{
     color: gray;
@@ -46,11 +45,40 @@ figure{
     font-size: 12px;
 }
 
-#table-head{
-    background-color: blue;
-    color: white;
-    
+/* table */
+
+table{
+    border-spacing: 0;
 }
+
+#cel-head{
+    color: white;
+    font-weight: 900;
+    background-color: blue;
+
+}
+
+.cel-left{
+    width: 20%;
+}
+
+.cel-center{
+    width: 20%;
+}
+
+.cel-right{
+    width: 60%;
+}
+
+#row2, #row4{
+    background-color: lightskyblue;
+}
+
+.cel-important{
+    background-color: lightskyblue;
+}
+
+/* more content */
 
 #more{
     font-size: 20px;

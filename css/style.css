@@ -11,7 +11,7 @@ body{
     height: 100px;
     background-image: url(../img/pattern.png);
     background-color: rgb(53, 91, 168);
-    
+    background-size: 30%;
 }
 
 
